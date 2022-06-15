@@ -1,0 +1,11 @@
+local CoreGui = game:GetService("StarterGui")
+
+if game.PlaceId == 286090429 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeNoobeth/Script-Tests/main/arsenalscriptloadertest"))()
+else
+  CoreGui:SetCore("SendNotification", {
+	  Title = "Unsupported";
+	  Text = "This is an unsupported game";
+	  Duration = 5;
+  })
+end
