@@ -21,7 +21,7 @@ local UICorner_8 = Instance.new("UICorner")
 
 
 arsenal.Name = "arsenal"
-arsenal.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+arsenal.Parent = game.CoreGui
 arsenal.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
